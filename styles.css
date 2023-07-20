@@ -12,7 +12,6 @@ body {
 }
 
 .header {
-    outline: 1px white dashed;
     color: white;
     height:35px;
     display: flex;
@@ -33,3 +32,64 @@ body {
   font-size: x-large;
   font-weight: 900;
 }
+
+.container div {
+    /* outline: 1px white dashed; */
+}
+
+.main-top {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 45px;
+    color:white;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.main-top div {
+    flex:1
+}
+
+.main-top-left {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.main-top-left-1 {
+    font-weight: 800;
+    color: #F9FAF8;
+    font-size: 36px;
+    padding:2px;
+}
+
+.main-top-left-2 {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+.main-top-left-3 {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    font-weight:600;
+    border-radius: 4px;
+    width: 90px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+.main-top-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: auto;
+
+    background-color: rgb(132, 136, 136);
+}
+.main-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+}
+

@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px 45px;
+    padding: 1vh 10vw;
 }
 
 .header div {
@@ -33,14 +33,12 @@ body {
   font-weight: 900;
 }
 
-.container div {
-    /* outline: 1px white dashed; */
-}
+
 
 .main-top {
     display: flex;
     flex-direction: row;
-    padding: 100px 45px;
+    padding: 5vh 10vw;
     color:white;
     justify-content: space-between;
     gap: 100px;
@@ -87,9 +85,133 @@ body {
 
     background-color: rgb(132, 136, 136);
 }
+
+.main-top-right-1 {
+    text-align: center;
+}
 .main-1 {
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
 }
 
+.main-1-info {
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
+    color:#1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.main-1-module-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0px;
+}
+
+.main-1-module-container div {
+    height: 100px;
+    border: 3px #2477fc solid;
+    border-radius: 7px;
+    width: 100px;
+}
+
+p {
+    width: 100px;
+    flex-wrap: wrap;
+    font-size: x-small;
+    text-align: center;
+}
+
+.module-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+
+
+}
+
+.main-2 {
+    background-color: #E5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 7vw;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.quote-author {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    margin-left: auto;
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 600;
+    padding: 0px 0px;
+}
+
+.main-3 {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px; 
+}
+
+.call-to-action-container {
+    background-color: #2477fc;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 30px;
+    gap: 50px;
+    align-items: center;
+}
+
+.call-to-action-left {
+    color: #F9FAF8;
+}
+
+.call-to-action-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.call-to-action-text {
+    font-size: small;
+}
+
+.call-to-action-right {
+    color: #F9FAF8;
+    background-color: #2477fc;
+    border: 2px #F9FAF8 solid;
+    border-radius: 4px;
+    padding: 5px 15px;
+}
+
+.footer {
+    height: 45px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 12px;
+}
